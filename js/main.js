@@ -21,6 +21,6 @@ function startAnime(num){
 function auto_scroll(num) {
     $('html,body').animate({
         scrollTop:$(num).offset().top - 100
-    }, 500, function() {
+    }, 1000, function() {
     });
 }
