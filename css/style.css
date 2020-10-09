@@ -363,3 +363,50 @@ header li p {
     margin: 400px 0 0;
     width: 100vw;
 }
+
+
+@media screen and (max-width: 500px) {
+    main{
+        padding-left: 10%;
+    }
+    main h1{
+        font-size: 40px;
+        letter-spacing: 20px;
+    }
+    .sound_bar{
+        top: 55em;
+    }
+    .screenshot{
+        width: 90vw;
+        min-width: auto;
+    }
+    .leader_section{
+        width: 80vw;
+        margin: 200px auto 0;
+    }
+    .leader_content{
+        width: 100%;
+        min-width: auto;
+    }
+    .concept_main{
+        margin-top: 20px;
+    }
+    .concept_text_session{
+        width: 80%;
+        min-width: auto;
+        margin: auto;
+    }
+    .preview_section div{
+        width: 80vw;
+        height: 40vw;
+    }
+    header ul{
+        padding: 20px 20px 0;
+    }
+    header li{
+        margin: auto 10px;
+    }
+    .contact_section{
+        padding: 100px 10% 200px;
+    }
+}
