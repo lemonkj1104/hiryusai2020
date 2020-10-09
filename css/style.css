@@ -1,0 +1,347 @@
+/* font-size generator */
+/* https://websemantics.uk/tools/responsive-font-calculator/ */
+/* 560px - 1920px */
+
+/* fonts */
+@font-face {
+	font-family: 'postnobillscolomboExtrabold';
+	src: url('../fonts/postnobillscolombo-extrabold.ttf');
+}
+p,a,h1,h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h2 {
+    font-size: calc(1.25rem + ((1vw - 5.6px) * 0.7353)); /* 20px - 30px */
+    line-height: calc(1.5 * (1.25rem + ((1vw - 5.6px) * 0.7353)));
+    letter-spacing: 0.2em;
+    font-weight: 500;
+}
+p {
+    font-size: calc(0.9375rem + ((1vw - 5.6px) * 0.3676)); /* 15px - 20px */
+    line-height: calc(1.5 * (0.9375rem + ((1vw - 5.6px) * 0.3676)));
+    letter-spacing: 0.2em;
+}
+
+/* css */
+body {
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    width: 100vw;
+}
+
+main {
+    width: 100vw;
+    height: 64em;
+    position: relative;
+    background: linear-gradient(89.71deg, #152C9E 0.2%, #772379 38.19%, #7E0427 71.64%, #A93229 99.65%);
+    padding-top: 20vh;
+
+    padding-left: calc(4.375rem + ((1vw - 5.6px) * 42.6471)); /*70px - 650px*/
+}
+main::before {
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+   
+    /*ここで三角形のサイズを決める。
+    必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
+    border-width: 0 0 20em 100vw ;
+   
+    border-color: transparent transparent #000000 transparent;
+}
+.main_dragon_image {
+    position: absolute;
+    top: -62px;
+    left: 0;
+    width: 25em;
+}
+main h1 {
+    font-family: 'postnobillscolomboExtrabold';
+    font-size: calc(4.375rem + ((1vw - 5.6px) * 2.2059)); /*70px - 100px*/
+    letter-spacing: calc(0.4 * (4.375rem + ((1vw - 5.6px) * 2.2059)));
+    margin-left: 0;
+    text-align: left;
+}
+
+.main_title {
+    text-shadow: -5px 10px 4px rgba(255, 0, 0, 0.4), 5px -7px 4px rgba(0, 194, 255, 0.4);
+    margin-bottom: 20px;
+}
+.main_subtitle {
+    color: transparent;
+    margin-top: 20px;
+    text-stroke: 0.01em #ffffff;
+    -webkit-text-stroke: 0.01em #ffffff;
+}
+
+.scroll_div {
+    width: 14em;
+    height: 3.5em;
+    text-align: center;
+    font-weight: 600;
+    font-size: .8em;
+    line-height: 3.5em;
+    letter-spacing: 0.4em;
+    border: 0.01em solid #FFFFFF;
+    box-sizing: border-box;
+    transform: rotate(90deg);
+    position: absolute;
+    right: 0;
+    top: 700px;
+}
+.scroll_div p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 3.1em;
+}
+
+.backgroun_circles div {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.03);
+    filter: blur(4px);
+}
+
+/* header */
+header {
+    width: 100vw;
+    height: 85px;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    text-align: right;
+}
+header ul {
+    display: flex;
+    padding: 20px 50px 0;
+    justify-content: flex-end;  /* 右寄せ */
+}
+header li {
+    color: #ffffff;
+    list-style: none;
+    line-height: 24px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: normal;
+    margin: auto 20px;
+}
+header li p {
+    font-size: 80%;
+    margin-bottom: 0px;
+}
+/* アンダーラインの作成 */
+.underline {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.underline::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 0.05em;
+    background: #ffffff;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform .3s;
+}
+.underline:hover::after {
+    transform-origin: right top;
+    transform: scale(1, 1);
+}
+
+
+
+/* join section */
+
+.join_section {
+
+}
+
+.join_text {
+    font-family: 'postnobillscolomboExtrabold', sans-serif;
+    text-align: right;
+    margin: 0 calc(3.125rem + ((1vw - 5.6px) * 11.0294));
+}
+#join_text {
+    font-size: calc(4.6875rem + ((1vw - 5.6px) * 7.7206));
+    letter-spacing: calc(0.2 * (4.6875rem + ((1vw - 5.6px) * 7.7206)));
+    line-height: calc(1.2 * (4.6875rem + ((1vw - 5.6px) * 7.7206)));
+    color: rgba(255, 255, 255, 0.5);
+    text-stroke: 2px solid #FFFFFF;
+    -webkit-text-stroke: .01em #FFFFFF;
+    margin-bottom: 0;
+}
+#online_text {
+    font-size: calc(6.25rem + ((1vw - 5.6px) * 10.2941));
+    letter-spacing: calc(0.2 * (6.25rem + ((1vw - 5.6px) * 10.2941)));
+    line-height: calc(1.2 * (6.25rem + ((1vw - 5.6px) * 10.2941)));
+    -webkit-text-stroke: .01em #FFFFFF;
+    background: -webkit-linear-gradient(180deg, #172C9E 0%, #772378 30.52%, #AC392F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 0.8em;
+}
+
+.screenshot_section { 
+    margin-top: 0;
+    width: 100vw;
+    text-align: right;
+}
+.start_button {
+    opacity: .6;
+    text-align: center;
+    /* height: 2em; */
+    width: 20em;
+    border: .1em solid #ffffff;
+    padding: .4em 0 .1em;
+    margin: 200px auto 0;
+    cursor: pointer;
+}
+.start_button_text {
+    font-family: 'postnobillscolomboExtrabold', sans-serif;
+    font-size: 1.4em;
+    line-height: 2em;
+    text-align: center;
+    margin: 0;
+}
+.sound_bar {
+    position: absolute;
+    top: 70em;
+    left: 0;
+    height: 40vw;
+}
+.screenshot {
+    margin-top: 200px;
+    width: 40vw;
+    min-width: 400px;
+}
+
+
+/* leader */
+.leader_section {
+    margin-top: 200px;
+}
+.leader_title {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.leader_name {
+    font-weight: 500;
+    width: 60%;
+    min-width: 400px;
+    margin: 0 auto 40px;
+}
+.leader_content {
+    width: 60%;
+    min-width: 400px;
+    margin: 0 auto;
+}
+
+
+
+/* concept_section */
+
+.concept_section {
+    margin-top: 200px;
+    text-align: center;
+}
+.concept_main {
+    font-size: calc(1.875rem + ((1vw - 5.6px) * 2.2059));  /* 30px - 60px */
+    line-height: calc(1.5 * (1.875rem + ((1vw - 5.6px) * 2.2059)));
+    font-weight: bold;
+    margin-bottom: 110px;
+}
+
+.concept_image {
+    width: 30%;
+    min-width: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 50px 0;
+    font-weight: bold;
+}
+.concept_text_session{
+    width: 60%;
+    min-width: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    margin: 50px 0;
+}
+.concept_logo {
+    width: 100vw;
+    /* overflow-y: hidden; */
+    position: relative;
+    height: 40vw;
+}
+
+
+.concept_logo div:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 5vw;
+    width: 50vw;
+    height: 25vw;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.concept_logo div:nth-child(2){
+    position: absolute;
+    top: 5vw;
+    left: 25vw;
+    width: 50vw;
+    height: 25vw;
+    text-align: center;
+    background: rgba(232, 232, 232, 0.9);
+}
+.concept_logo div:nth-child(3){
+    position: absolute;
+    top: 10vw;
+    right: 5vw;
+    width: 50vw;
+    height: 25vw;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.concept_title {
+    font-style: italic;
+    line-height: 25vw;
+    color: #1A1A1A;
+}
+
+
+/* preview_section */
+.preview_section {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.preview_section h2 {
+    font-style: italic;
+}
+.preview_section div {
+    width: 60vw;
+    height: 40vw;
+    background: #AFAFAF;
+    margin: 100px auto;
+    text-align: center;
+}
+.preview_section div h2 {
+    line-height: 40vw;
+    font-weight: bolder;
+    font-style: normal;
+}
