@@ -321,6 +321,7 @@ header li p {
     font-style: italic;
     line-height: 25vw;
     color: #1A1A1A;
+    font-weight: bold;
 }
 
 
@@ -332,6 +333,7 @@ header li p {
 
 .preview_section h2 {
     font-style: italic;
+    font-weight: bold;
 }
 .preview_section div {
     width: 60vw;
@@ -344,4 +346,20 @@ header li p {
     line-height: 40vw;
     font-weight: bolder;
     font-style: normal;
+}
+
+/* contact_section */
+.contact_section {
+    margin-top: 0;
+    padding: 100px 10% 400px;
+    text-align: left;
+}
+.contact_title{
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.contact_border{
+    margin: 400px 0 0;
+    width: 100vw;
 }
