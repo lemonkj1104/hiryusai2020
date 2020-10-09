@@ -10,6 +10,10 @@
 p,a,h1,h2 {
     font-family: 'Noto Sans JP', sans-serif;
 }
+a {
+    color: white !important;
+    text-decoration:none;
+}
 
 h2 {
     font-size: calc(1.25rem + ((1vw - 5.6px) * 0.7353)); /* 20px - 30px */
