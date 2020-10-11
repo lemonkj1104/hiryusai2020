@@ -376,6 +376,11 @@ header li p {
     width: 100vw;
 }
 
+.contact_section img {
+    height: 35px;
+    margin-top: 55px;
+    margin-right: 30px;
+}
 
 @media screen and (max-width: 500px) {
     main{
