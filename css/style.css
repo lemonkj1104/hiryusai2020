@@ -226,11 +226,19 @@ header li p {
     left: 0;
     height: 40vw;
 }
+
+.event_description{
+    text-align: center;
+    font-size: 14px;
+    color: #AFAFAF;
+}
+
 .screenshot {
     margin-top: 200px;
     width: 40vw;
     min-width: 400px;
 }
+
 
 
 /* leader */
