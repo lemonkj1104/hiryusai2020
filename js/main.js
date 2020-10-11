@@ -41,7 +41,7 @@ const change_language = [
     ],
     [
         "11月下旬に開催！", 
-        '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">事前予約は、11/2から開始</span>', 
+        '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">事前登録は、11/1から開始</span>', 
         "委員長紹介", 
         "委員長　中里星恋",
         `こんにちは！	<br>
@@ -76,7 +76,7 @@ const change_language = [
     ],
     [
         "HIRYUAI ONLINE will be held in late November", 
-        'Reservation in advance starts from November 1st',
+        'Reservations start on November 1st',
         "Chairman Introduction", 
         "Chairman of Hiryusai Festival : Seren Nakazato",
         `
