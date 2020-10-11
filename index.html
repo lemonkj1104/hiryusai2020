@@ -38,6 +38,12 @@
 			<!-- <li class="underline">Works</li> -->
 			<!-- <li class="underline">VR</li> -->
 			<li class="underline" onclick="auto_scroll('.contact_boder')"><p>Contact</p></li>
+			<div class="change_language_div" id="change_language_button_1">
+				<p class="change_language_button" onclick="change_language_func(1)">JP</p>
+			</div>
+			<div class="change_language_div" id="change_language_button_2">
+				<p class="change_language_button" onclick="change_language_func(2)">EN</p>
+			</div>
 		</ul>
 	</header>
 	<main>
@@ -74,8 +80,8 @@
 					<span style="font-size: .8em; vertical-align: middle;">/></span>
 				</p>
 			</div>
-			<p class="event_description" style="margin: 35px 0 0;">11月下旬に開催！</p>
-			<p class="event_description" style="margin: 0 auto;border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;width: 15em;">事前予約は、11/2から開始</p>
+			<p class="event_description" style="margin: 35px 0 0;" id="event_description_0">11月下旬に開催！</p>
+			<p class="event_description" style="margin: 0 auto;" id="event_description_1"><span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">事前予約は、11/2から開始</span></p>
 			<img src="img/screenshot.jpg" class="screenshot">
 		</div>
 	</div>
@@ -106,9 +112,9 @@
 		<h2 class="concept_main">～家から学校体験を～</h2>
 		<h2 class="concept_image">イメージ</h2>
 		<div class="concept_text_session">
-			<h2>文化祭、新時代へ</h2>
+			<h2 id="concept_text_title">文化祭、新時代へ</h2>
 			<br>
-			<p>
+			<p id="concept_text_body">
 				コロナ禍で学校にも満足に行けなくなり、エンタメも憚られ....
 				<br>
 				そんな今こそ力を合わせて新しい時代への挑戦をやめずに居続けたい。
@@ -126,7 +132,7 @@
 	<img src="img/contact_boder.jpg" class="contact_boder">
 	<div class="contact_section">
 		<h2 class="contact_title">CONTACT</h2>
-		<p>
+		<p class="contact_contents">
 			<span style="font-weight: bold; font-size: 110%;">
 				渋谷教育学園渋谷中学高等学校
 			</span>
@@ -142,9 +148,9 @@
 		<a href="https://twitter.com/hiryusai_2020" target="_blank">
 			<img src="img/twitter.png">
 		</a>
-		<a href="https://www.instagram.com/hiryusai_2020" target="_blank">
+		<!-- <a href="https://www.instagram.com/hiryusai_2020" target="_blank">
 			<img src="img/instagram.png">
-		</a>
+		</a> -->
 	</div>
 
 	<p style="text-align: center; font-size: 10px;">©︎ HIRYUSAI ONLINE 2020.</p>

@@ -165,7 +165,17 @@ header li p {
     transform: scale(1, 1);
 }
 
-
+.change_language_div{
+    padding: 1px 7px;
+    margin: 0 5px;
+}
+#change_language_button_1{
+    border: 1px solid #ffffff;
+}
+.change_language_button{
+    font-size: 80%;
+    margin: 0px;
+}
 
 /* join section */
 
@@ -229,7 +239,7 @@ header li p {
 
 .event_description{
     text-align: center;
-    font-size: 14px;
+    font-size: calc(0.625rem + ((1vw - 5.6px) * 0.2941)); /* 10px - 14px */
     color: #AFAFAF;
 }
 
@@ -401,6 +411,10 @@ header li p {
         width: 80vw;
         margin: 200px auto 0;
     }
+    .leader_name{
+        width: 100%;
+        min-width: auto;
+    }
     .leader_content{
         width: 100%;
         min-width: auto;
@@ -425,5 +439,8 @@ header li p {
     }
     .contact_section{
         padding: 100px 10% 200px;
+    }
+    .underline{
+        display: none;
     }
 }
