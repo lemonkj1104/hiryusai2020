@@ -11,4 +11,8 @@ function onKonamiCode(cb) {
     });
   }
   
-  onKonamiCode(function () {alert('何に使えるかわからないけど、秘密のメッセージです！')})
+  onKonamiCode(
+    function () {
+      alert('このメッセージを読んでいる人は、Discordを見た。')
+    }
+  )
