@@ -41,7 +41,7 @@ const change_language = [
     ],
     [
         "11月下旬に開催！", 
-        '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">事前登録は、11/1から開始</span>', 
+        '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">事前予約は、11/2から開始</span>', 
         "委員長紹介", 
         "委員長　中里星恋",
         `こんにちは！	<br>
@@ -51,7 +51,7 @@ const change_language = [
         HIRYUSAI ONLINEのテーマは <b>｢ imagine ｣</b>。<br>
         今の世界は、個人だけでなく地球全体が大きく変わることが求められています。そのために必要なものこそが、｢imagine｣です。一人ひとりが自分たちに何ができるかを想像し、新しいものを創造していく。今の世界ではそんな力が求められているのではないでしょうか。<br>
         渋渋生は現在、各クラス・部活・委員会等で想像力を結集させ、今までとは違う企画の実現に向けて全力を注いでいます。<br>
-        当日にはきっと、未来を担う若者たちの努力の結晶が見れるはずです。<br>
+        当日にはきっと、未来を担う若者たちの努力の結晶が見られるはずです。<br>
         <br>
         それまでご期待の上、もうしばらくお待ちください！`, 
         "～家から学校体験を～",
@@ -76,7 +76,7 @@ const change_language = [
     ],
     [
         "HIRYUAI ONLINE will be held in late November", 
-        'Reservations start on November 1st',
+        'Reservation in advance starts from November 1st',
         "Chairman Introduction", 
         "Chairman of Hiryusai Festival : Seren Nakazato",
         `
@@ -97,7 +97,7 @@ const change_language = [
         "Experiencing school from home",
         "Image", 
         "School Festival, to the newer",
-        `Due to the coronavirus outbreak, students are not able to go to school satisfactorily or even be entertained to the fullest.<br>
+        `Due to the outbreak of the corona virus, students are not able to go to school satisfactorily or even be entertained to the fullest.<br>
         But now is the time to join forces and to keep on challenging to the new era.<br>
         <br>
         Our challenge begins here.`, 
