@@ -443,4 +443,7 @@ header li p {
     .underline{
         display: none;
     }
+    .main_subtitle{
+        color: #ffffffbd;
+    }
 }
