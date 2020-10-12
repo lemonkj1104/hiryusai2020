@@ -76,7 +76,7 @@ const change_language = [
     ],
     [
         "HIRYUAI ONLINE will be held in late November", 
-        'Reservation in advance starts from November 1st',
+        'Reservations start on November 1st',
         "Chairman Introduction", 
         "Chairman of Hiryusai Festival : Seren Nakazato",
         `
@@ -97,8 +97,8 @@ const change_language = [
         "Experiencing school from home",
         "Image", 
         "School Festival, to the newer",
-        `Due to the coronavirus outbreak, students are not able to go to school satisfactorily or even be entertained to the fullest.<br>
-        But now is the time to join forces and to keep on challenging to the new era.<br>
+        `Due to the coronavirus outbreak, students were not able to go to school satisfactorily or even be entertained to the fullest.<br>
+        But now is the time to join forces and to keep on challenging ourselves to the new era.<br>
         <br>
         Our challenge begins here.`, 
         `<span style="font-weight: bold; font-size: 110%;">
