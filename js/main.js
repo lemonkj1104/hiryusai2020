@@ -97,7 +97,7 @@ const change_language = [
         "Experiencing school from home",
         "Image", 
         "School Festival, to the newer",
-        `Due to the outbreak of the corona virus, students are not able to go to school satisfactorily or even be entertained to the fullest.<br>
+        `Due to the coronavirus outbreak, students are not able to go to school satisfactorily or even be entertained to the fullest.<br>
         But now is the time to join forces and to keep on challenging to the new era.<br>
         <br>
         Our challenge begins here.`, 
