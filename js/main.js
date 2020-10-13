@@ -28,7 +28,6 @@ function auto_scroll(num) {
 
 const change_language = [
     [
-        ".font",
         "#event_description_0", 
         "#event_description_1", 
         ".leader_title", 
@@ -41,7 +40,6 @@ const change_language = [
         ".contact_contents", 
     ],
     [
-        "<link href='https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap' rel='stylesheet'>",
         "11月下旬に開催！", 
         '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">事前予約は、11/2から開始</span>', 
         "委員長紹介", 
@@ -77,7 +75,6 @@ const change_language = [
         MAIL：<a href="mailto:hiryu25th.2020@gmail.com" target="_blank">hiryu25th.2020@gmail.com</a>`, 
     ],
     [
-        "<link href='css/englishFont.css' rel='stylesheet'>",
         "HIRYUAI ONLINE will be held in late November", 
         'Reservations start on November 1st',
         "Chairman Introduction", 
@@ -96,7 +93,6 @@ const change_language = [
         On the day of HIRYUAI ONLINE, you will surely see the result of the efforts of the young people who will lead the future.<br>
         <br>
         Please look forward to it and wait for a while!<br>
-        
         `, 
         "Experiencing school from home",
         "Image", 
@@ -123,11 +119,16 @@ function change_language_func(num){
     console.log(num);
     for (let i = 0; i < change_language[0].length; i++) {
         $(change_language[0][i]).html(change_language[num][i]);
+        if(num === 1){ //jp
+            $(change_language[0][i]).css({'font-family' : "'Noto Sans JP', sans-serif",'letter-spacing' : '0.2em'});
+        }else{ //en
+            $(change_language[0][i]).css({'font-family' : "'Inter', sans-serif",'letter-spacing' : '0.1em'});
+        }
     }
-    if(num === 1){
+    if(num === 1){ //jp
         $('#change_language_button_1').css('border', '1px solid #ffffff');
         $('#change_language_button_2').css('border', '0');
-    }else{
+    }else{ //en
         $('#change_language_button_1').css('border', '0');
         $('#change_language_button_2').css('border', '1px solid #ffffff');
     }
