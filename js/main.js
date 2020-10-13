@@ -120,7 +120,7 @@ function change_language_func(num){
     for (let i = 0; i < change_language[0].length; i++) {
         $(change_language[0][i]).html(change_language[num][i]);
         if(num === 1){ //jp
-            $(change_language[0][i]).css({'font-family' : "'Noto Sans JP', sans-serif",'letter-spacing' : '0.2em'});
+            $(change_language[0][i]).css({'font-family' : "'Noto Sans JP', sans-serif",'letter-spacing' : '0.14em'});
         }else{ //en
             $(change_language[0][i]).css({'font-family' : "'Montserrat', sans-serif",'letter-spacing' : '0.05em'});
         }
