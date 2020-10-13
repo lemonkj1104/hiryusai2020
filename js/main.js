@@ -122,7 +122,7 @@ function change_language_func(num){
         if(num === 1){ //jp
             $(change_language[0][i]).css({'font-family' : "'Noto Sans JP', sans-serif",'letter-spacing' : '0.14em'});
         }else{ //en
-            $(change_language[0][i]).css({'font-family' : "'Montserrat', sans-serif",'letter-spacing' : '0.05em'});
+            $(change_language[0][i]).css({'font-family' : "'Tahoma', 'Geneva', sans-serif",'letter-spacing' : '0.05em'});
         }
     }
     if(num === 1){ //jp
