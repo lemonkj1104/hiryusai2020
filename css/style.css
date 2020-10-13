@@ -7,8 +7,12 @@
 	font-family: 'postnobillscolomboExtrabold';
 	src: url('../fonts/postnobillscolombo-extrabold.ttf');
 }
-p,a,h1,h2 {
+a,h1,h2 {
     font-family: 'Noto Sans JP', sans-serif;
+}
+p {
+    letter-spacing: 0.5px;
+    text-align: left;
 }
 a {
     color: white !important;
