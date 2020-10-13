@@ -62,7 +62,7 @@ const change_language = [
         そんな今こそ力を合わせて新しい時代への挑戦をやめずに居続けたい。
         <br>
         僕たちの挑戦がここから始まる。`, 
-        `<span style="font-weight: bold; font-size: 110%;">
+        `<span style="font-weight: bold; font-size: 110%;">Ω
             渋谷教育学園渋谷中学高等学校
         </span>
         <br>
@@ -80,6 +80,7 @@ const change_language = [
         "Chairman Introduction", 
         "Chairman of Hiryusai Festival : Seren Nakazato",
         `
+        <span style="font-family: 'Inter', sans-serif; letter-spacing: 2px;">
         Hello!<br>
         Thank you for visiting HIRYUSAI ONLINE!<br>
         I'm Seren Nakazato, the chairman of the Hiryu Festival executive committee.<br>
@@ -93,6 +94,7 @@ const change_language = [
         On the day of HIRYUAI ONLINE, you will surely see the result of the efforts of the young people who will lead the future.<br>
         <br>
         Please look forward to it and wait for a while!<br>
+        </span> 
         `, 
         "Experiencing school from home",
         "Image", 
