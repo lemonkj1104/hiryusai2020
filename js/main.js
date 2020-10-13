@@ -77,7 +77,7 @@ const change_language = [
         MAIL：<a href="mailto:hiryu25th.2020@gmail.com" target="_blank">hiryu25th.2020@gmail.com</a>`, 
     ],
     [
-        "<link href='https://fonts.googleapis.com/css2?family=Inter&display=swap' rel='stylesheet'>",
+        "<link href='css/englishFont.css' rel='stylesheet'>",
         "HIRYUAI ONLINE will be held in late November", 
         'Reservations start on November 1st',
         "Chairman Introduction", 
