@@ -102,7 +102,7 @@ const change_language = [
         <br>
         Our challenge begins here.`, 
         `<span style="font-weight: bold; font-size: 110%;">
-            Shibuya junior and senior high school 
+            Shibuya Junior and Senior High School 
         </span>
         <br>
         1-21-18 Shibuya Shibuya, Tokyo 〒150-0002
