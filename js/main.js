@@ -87,9 +87,9 @@ const change_language = [
         The theme of HIRYUSAI ONLINE is "Imagine".<br>
         In today's world, not only individuals but the entire world is required to change significantly.<br>
         "Imagine" is what is needed in order for the whole world to change.<br>
-        We must imagine what each of us can do, and create new things.<br>
-        I think that kind of power is required in the present world.<br>
-        Shibu Shibu students are currently focusing on this imagination in each class, club activities, committees, etc., and is making every effort to make  many events successful.<br>
+        We must imagine what each of us can do, and create a brighter future.<br>
+        I believe that this kind of power is required in today's world.<br>
+        Shibu Shibu students are currently focusing on this imagination in every class, club activity, committee, etc., and are making every effort to make many events successful.<br>
         On the day of HIRYUAI ONLINE, you will surely see the result of the efforts of the young people who will lead the future.<br>
         <br>
         Please look forward to it and wait for a while!<br>
