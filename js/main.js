@@ -133,7 +133,3 @@ function change_language_func(num){
         $('#change_language_button_2').css('border', '1px solid #ffffff');
     }
 }
-
-$(window).on('load', function() {
-    $('.cloudflare-badge').css('opacity','0');
-});
