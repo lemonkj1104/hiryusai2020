@@ -77,7 +77,7 @@ const change_language = [
     [
         "HIRYUAI ONLINE will be held in late November", 
         'Reservations start on November 2nd',
-        "Message From Chairman", 
+        "Message From the Chairman", 
         "Chairman of Hiryusai Festival : Seren Nakazato",
         `
         Hello!<br>
