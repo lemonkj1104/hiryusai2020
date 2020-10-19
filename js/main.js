@@ -84,7 +84,7 @@ const change_language = [
         Thank you for visiting HIRYUSAI ONLINE!<br>
         I'm Seren Nakazato, the chairman of the Hiryu Festival executive committee.<br>
         <br>
-        The theme of HIRYUSAI ONLINE is "Imagine".<br>
+        The theme of HIRYUSAI ONLINE is <b>"IMAGINE"</b>.<br>
         In today's world, not only individuals but the entire world is required to change significantly.<br>
         "Imagine" is what is needed in order for the whole world to change.<br>
         We must imagine what each of us can do, and create a brighter future.<br>
@@ -122,7 +122,7 @@ function change_language_func(num){
         if(num === 1){ //jp
             $(change_language[0][i]).css({'font-family' : "'Noto Sans JP', sans-serif",'letter-spacing' : '0.14em'});
         }else{ //en
-            $(change_language[0][i]).css({'font-family' : "'Tahoma', 'Geneva', sans-serif",'letter-spacing' : '0.05em'});
+            $(change_language[0][i]).css({'font-family' : "'Tahoma', 'Geneva', sans-serif",'letter-spacing' : '0.08em'});
         }
     }
     if(num === 1){ //jp
