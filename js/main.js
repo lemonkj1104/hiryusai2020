@@ -41,7 +41,7 @@ const change_language = [
     ],
     [
         "11月下旬に開催！", 
-        '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">事前予約は、11/2から開始</span>', 
+        '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">事前予約は、11/9から開始</span>', 
         "委員長挨拶", 
         "委員長　中里星恋",
         `こんにちは！	<br>
