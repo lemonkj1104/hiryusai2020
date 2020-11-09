@@ -41,11 +41,7 @@ const change_language = [
     ],
     [
         "11月下旬に開催！", 
-<<<<<<< HEAD
         '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">事前登録は、パソコンからを推奨します。</span>', 
-=======
-        '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">事前予約は、11/9から開始</span>', 
->>>>>>> 012cd32de687df4e386341cc99159869e5181918
         "委員長挨拶", 
         "委員長　中里星恋",
         `こんにちは！	<br>
@@ -79,15 +75,12 @@ const change_language = [
         MAIL：<a href="mailto:hiryu25th.2020@gmail.com" target="_blank">hiryu25th.2020@gmail.com</a>`, 
     ],
     [
-<<<<<<< HEAD
         "HIRYUAI ONLINE will be held in late November", 
         'Registration is recommended from a computer.',
         "Message From Chairman", 
-=======
         "Coming this November", 
         'Reservations start on November 9th',
         "Message From the Chairman", 
->>>>>>> 012cd32de687df4e386341cc99159869e5181918
         "Chairman of Hiryusai Festival : Seren Nakazato",
         `
         Hello!<br>
@@ -142,9 +135,5 @@ function change_language_func(num){
         $('#change_language_button_1').css('border', '0');
         $('#change_language_button_2').css('border', '1px solid #ffffff');
     }
-<<<<<<< HEAD
-}
 
-=======
 }
->>>>>>> 012cd32de687df4e386341cc99159869e5181918
