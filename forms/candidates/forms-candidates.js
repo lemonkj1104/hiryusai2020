@@ -1,4 +1,4 @@
-const pass = 'jukenn';
+const pass = '3u89Fs';
 let display_section = 0;
 let grade = 1;
 let location_num = 1;
