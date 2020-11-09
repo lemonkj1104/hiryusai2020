@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.form_div{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.left_section{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right_section {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_section_image{
+    width: 50%;
+}
+.right_section .inner{
+    padding: 60 80 60 10;
+}
+.form_quetion_en{
+    font-size: 36px;
+    font-weight: 200;
+    color: #303030;
+    letter-spacing: 0.4em;
+    margin: 0;
+}
+.form_quetion_jp{
+    font-size: 16px;
+    font-weight: 200;
+    color: #303030;
+    letter-spacing: 0.4em;
+    margin: 1 0 65px;
+}
+.form_choices{
+    font-size: 21px;
+    font-weight: 300;
+    color: #AFAFAF;
+    letter-spacing: 0.4em;
+    margin: 25px 0;
+    cursor: pointer;
+}
+.active_choice{
+    color: #303030;
+}
+.arrow_icon{
+    margin-top: 50px;
+    float: right;
+    cursor: pointer;
+}
