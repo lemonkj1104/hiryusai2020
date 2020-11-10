@@ -16,7 +16,7 @@ main{
 .title{
     margin-top: 50px;
     font-family: 'postnobillscolomboExtrabold';
-    font-size: 60px;
+    font-size: calc(2.5rem + ((1vw - 3.75px) * 1.2945)); /* 40px - 60px */
     line-height: 115%;
     letter-spacing: 0.4em;
     text-stroke: 1.4px #303030;
@@ -40,7 +40,7 @@ main{
     margin: 70px auto;
 }
 .description_text{
-    font-size: 17px;
+    font-size: calc(0.875rem + ((1vw - 3.75px) * 0.1942)); /* 14px - 17px */
     font-weight: normal;
     letter-spacing: 0.2em;
     margin: 0;
@@ -86,4 +86,12 @@ main{
     font-size: 10px;
     font-weight: normal;
     letter-spacing: 0.2em;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    main{
+        width: 86%;
+    }
 }

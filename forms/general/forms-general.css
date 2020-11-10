@@ -126,3 +126,38 @@ input[type=text]:focus {
 .submit_button:hover{
     box-shadow: -3px 4px 4px rgba(255, 0, 0, 0.4), 2px -2px 4px rgba(0, 194, 255, 0.4);
 }
+
+
+
+@media screen and (max-width: 1000px) {
+    .form_div{
+        display: block;
+    }
+    .left_section{
+        width: 100vw;
+        height: auto;
+    }
+    .form_section_image{
+        margin: 2vw;
+        width: 96vw;
+    }
+    .right_section {
+        width: 100vw;
+        height: auto;
+        padding: 30px 0;
+    }
+    .right_section .inner{
+        padding: 0 60px;
+        width: calc(100vw - 120px);
+    }
+    .scroll_outer, .scroll_inner_section, .scroll_inner_section input[type=text]{
+        width: calc(100vw - 120px);
+    }
+    .form_category{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .form_div{
+        height: auto;
+    }
+}
