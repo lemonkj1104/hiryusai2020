@@ -130,12 +130,8 @@ function code_generator (){
     //ランダム追加
     let random1 = Math.floor(Math.random() * 10);
     let random2 = Math.floor(Math.random() * 10);
-    let random3 = Math.floor(Math.random() * 10);
-    let random4 = Math.floor(Math.random() * 10);
     code += random1.toString();
     code += random2.toString();
-    code += random3.toString();
-    code += random4.toString();
     
     //確認コードの追加
     let check1 = parseInt(code) % 7;
