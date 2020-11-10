@@ -78,9 +78,6 @@ const change_language = [
         "Coming late November", 
         'Registration from a computer is recommended.',
         "Message From Chairman", 
-        "Coming this November", 
-        'Reservations start on November 9th',
-        "Message From the Chairman", 
         "Chairman of Hiryusai Festival: Seren Nakazato",
         `
         Hello!<br>
