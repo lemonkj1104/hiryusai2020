@@ -75,13 +75,12 @@ const change_language = [
         MAIL：<a href="mailto:hiryu25th.2020@gmail.com" target="_blank">hiryu25th.2020@gmail.com</a>`, 
     ],
     [
-        "HIRYUAI ONLINE will be held in late November", 
-        'Registration is recommended from a computer.',
+        "Coming late November", 
+        'Registration from a computer is recommended.',
         "Message From Chairman", 
         "Coming this November", 
         'Reservations start on November 9th',
         "Message From the Chairman", 
-        "Chairman of Hiryusai Festival : Seren Nakazato",
         `
         Hello!<br>
         Thank you for visiting HIRYUSAI ONLINE!<br>
