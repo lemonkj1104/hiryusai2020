@@ -35,7 +35,7 @@ body{
 }
 .form_quetion_en{
     font-size: calc(1.375rem + ((1vw - 3.75px) * 0.9061)); /* 22px - 36px */
-    font-weight: 200;
+    font-weight: 300;
     color: #303030;
     letter-spacing: 0.4em;
     margin: 0;
