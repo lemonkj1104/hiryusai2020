@@ -3,13 +3,13 @@
         "1-1": {
             "grade": 1,
             "class": 1,
-            "imagePath": "../img/thumbnails/1-1-thumbnail.jpg",
+            "imagePath": "../img/thumbnails/1_1_thumbnail.jpg",
             "title": "1-1"
         }, //コンマ重要！
         "1-2": {
             "grade": 1,
             "class": 2,
-            "imagePath": "../img/thumbnails/1-2-thumbnail.jpg",
+            "imagePath": "../img/thumbnails/1_2_thumbnail.jpg",
             "title": "1-2"
         } //この後に追記する場合は、コンマを忘れるな！
     },
