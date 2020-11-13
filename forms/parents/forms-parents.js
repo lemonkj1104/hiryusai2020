@@ -46,18 +46,25 @@ $(window).on('load', function() {
         check_arrow();
     });
 });
+
+$('html,body').keydown(function() {
+    check_arrow();
+});
+
 function check_arrow(){
     let text_value = $('#inner_section_' + display_section + ' input').val();
     if(display_section === 4){ //パスワード入力時
-        if(text_value === pass){
-            $('.error_messege').hide();
-            $('.arrow_icon').css('pointer-events', 'auto');
-            $('.arrow_icon').attr('src', '../img/arrow-icon.svg');
-        }else if(text_value.split('').length > 5){
-            $('.error_messege').show();
-            $('.arrow_icon').css('pointer-events', 'none');
-            $('.arrow_icon').attr('src', '../img/arrow-icon-gray.svg');
-            $('.arrow_icon').css('pointer-events', 'none');
+        if(text_value.split('').length > 5){
+            if(text_value === pass){
+                $('.error_messege').hide();
+                $('.arrow_icon').css('pointer-events', 'auto');
+                $('.arrow_icon').attr('src', '../img/arrow-icon.svg');
+            }else{
+                $('.error_messege').show();
+                $('.arrow_icon').css('pointer-events', 'none');
+                $('.arrow_icon').attr('src', '../img/arrow-icon-gray.svg');
+                $('.arrow_icon').css('pointer-events', 'none');
+            }
         }else{
             $('.arrow_icon').css('pointer-events', 'none');
             $('.arrow_icon').attr('src', '../img/arrow-icon-gray.svg');
