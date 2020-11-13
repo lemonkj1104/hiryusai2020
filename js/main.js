@@ -41,7 +41,7 @@ const change_language = [
     ],
     [
         "11月下旬に開催！", 
-        '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">事前登録は、パソコンからを推奨します。</span>', 
+        '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">人数制限はありません。誰でも登録可能です。</span>', 
         "委員長挨拶", 
         "委員長　中里星恋",
         `こんにちは！	<br>
@@ -76,7 +76,7 @@ const change_language = [
     ],
     [
         "Coming late November", 
-        'Registration from a computer is recommended.',
+        '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">Anyone can join. Register today.</span>',
         "Message From Chairman", 
         "Chairman of Hiryusai Festival: Seren Nakazato",
         `
