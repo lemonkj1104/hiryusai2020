@@ -1,11 +1,31 @@
 {
-    "クラス企画": {
+    "class": {
+        "1-1": {
+            "grade": 1,
+            "class": 1,
+            "imagePath": " ",
+            "title": " "
+        }, //コンマ重要！
+        "1-2": {
+            "grade": 1,
+            "class": 2,
+            "imagePath": " ",
+            "title": " "
+        } //この後に追記する場合は、コンマを忘れるな！
+    },
+
+    "club": {
 
     },
-    "部活企画": {
-
-    },
-    "有志企画": {
-        
+    
+    "independent": {
+        "independent1":{
+            "member": [
+                "member1",
+                "member2"
+            ],
+        "title": " ",
+        "imagePath": " "
+        }
     }
 }
