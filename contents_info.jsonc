@@ -60,6 +60,12 @@
             "imagePath": "../img/thumbnails/2_4_thumbnail.jpg",
             "title": "2-4"
         },
+        "2-5": {
+            "grade": 2,
+            "class": 5,
+            "imagePath": "../img/thumbnails/2_5_thumbnail.jpg",
+            "title": "2-5"
+        },
         "2-6": {
             "grade": 2,
             "class": 6,
@@ -102,6 +108,66 @@
             "imagePath": "../img/thumbnails/3_6_thumbnail.jpg",
             "title": "3-6"
         },
+         "1-A": {
+            "grade": 4,
+            "class": 1,
+            "imagePath": "../img/thumbnails/1_A_thumbnail.jpg",
+            "title": "1-A"
+        },
+        "1-B": {
+            "grade": 4,
+            "class": 2,
+            "imagePath": "../img/thumbnails/1_B_thumbnail.jpg",
+            "title": "1-B"
+        },
+        "1-C": {
+            "grade": 4,
+            "class": 3,
+            "imagePath": "../img/thumbnails/1_C_thumbnail.jpg",
+            "title": "1-C"
+        },
+        "1-D": {
+            "grade": 4,
+            "class": 4,
+            "imagePath": "../img/thumbnails/1_D_thumbnail.jpg",
+            "title": "1-D"
+        },
+        "1-E": {
+            "grade": 4,
+            "class": 5,
+            "imagePath": "../img/thumbnails/1_E_thumbnail.jpg",
+            "title": "1-E"
+        },
+        "2-A": {
+            "grade": 5,
+            "class": 1,
+            "imagePath": "../img/thumbnails/2_A_thumbnail.jpg",
+            "title": "2-A"
+        },
+        "2-B": {
+            "grade": 5,
+            "class": 2,
+            "imagePath": "../img/thumbnails/2_B_thumbnail.jpg",
+            "title": "2-B"
+        },
+        "2-C": {
+            "grade": 5,
+            "class": 3,
+            "imagePath": "../img/thumbnails/2_C_thumbnail.jpg",
+            "title": "2-C"
+        },
+        "2-D": {
+            "grade": 5,
+            "class": 4,
+            "imagePath": "../img/thumbnails/2_D_thumbnail.jpg",
+            "title": "2-D"
+        },
+        "2-E": {
+            "grade": 5,
+            "class": 5,
+            "imagePath": "../img/thumbnails/2_E_thumbnail.jpg",
+            "title": "2-E"
+        }
             //この後に追記する場合は、コンマを忘れるな！
     },
 
