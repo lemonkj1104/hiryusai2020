@@ -109,9 +109,9 @@
 
     },
 
-    "yuushi": {
-        "yuushi":{
-            "member": [
+    "independent": {
+        "independent1":{
+            "members": [
                 "member1",
                 "member2"
             ],
