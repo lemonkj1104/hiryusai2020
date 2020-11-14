@@ -76,7 +76,7 @@ const change_language = [
     ],
     [
         "Coming late November", 
-        '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">Anyone can join. Register today.</span>',
+        '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">Anyone can join the experience. Register today.</span>',
         "Message From Chairman", 
         "Chairman of Hiryusai Festival: Seren Nakazato",
         `
