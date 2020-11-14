@@ -53,6 +53,15 @@ a{
     margin-bottom: 120px;
 }
 
+/*卒業生ページだけに追加（小さい説明文用）*/
+.instructions{ 
+    font-size: calc(0.8125rem + ((1vw - 3.75px) * 0.1942)); /* 13px - 16px */
+    font-weight: 200;
+    color: #303030;
+    letter-spacing: 0.4em;
+    margin: 1 0 65px;
+}
+
 
 
 input[type=text] {
