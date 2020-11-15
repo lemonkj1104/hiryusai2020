@@ -3,169 +3,169 @@
         "1-1": {
             "grade": 1,
             "class": 1,
-            "imagePath": "../img/thumbnails/1_1_thumbnail.jpg",
+            "imagePath": "img/thumbnails/1_1_thumbnail.jpg",
             "title": "1-1"
         }, //コンマ重要！
         "1-2": {
             "grade": 1,
             "class": 2,
-            "imagePath": "../img/thumbnails/1_2_thumbnail.jpg",
+            "imagePath": "img/thumbnails/1_2_thumbnail.jpg",
             "title": "1-2"
         },
         "1-3": {
             "grade": 1,
             "class": 3,
-            "imagePath": "../img/thumbnails/1_3_thumbnail.jpg",
+            "imagePath": "img/thumbnails/1_3_thumbnail.jpg",
             "title": "1-3"
         },
         "1-4": {
             "grade": 1,
             "class": 4,
-            "imagePath": "../img/thumbnails/1_4_thumbnail.jpg",
+            "imagePath": "img/thumbnails/1_4_thumbnail.jpg",
             "title": "1-4"
         },        
         "1-5": {
             "grade": 1,
             "class": 5,
-            "imagePath": "../img/thumbnails/1_5_thumbnail.jpg",
+            "imagePath": "img/thumbnails/1_5_thumbnail.jpg",
             "title": "1-5"
         },
         "1-6": {
             "grade": 1,
             "class": 6,
-            "imagePath": "../img/thumbnails/1_6_thumbnail.jpg",
+            "imagePath": "img/thumbnails/1_6_thumbnail.jpg",
             "title": "1-6"
         },
         "2-1": {
             "grade": 2,
             "class": 1,
-            "imagePath": "../img/thumbnails/2_1_thumbnail.jpg",
+            "imagePath": "img/thumbnails/2_1_thumbnail.jpg",
             "title": "2-1"
         },
         "2-2": {
             "grade": 2,
             "class": 2,
-            "imagePath": "../img/thumbnails/2_2_thumbnail.jpg",
+            "imagePath": "img/thumbnails/2_2_thumbnail.jpg",
             "title": "2-2"
         },
         "2-3": {
             "grade": 2,
             "class": 3,
-            "imagePath": "../img/thumbnails/2_3_thumbnail.jpg",
+            "imagePath": "img/thumbnails/2_3_thumbnail.jpg",
             "title": "2-3"
         },
         "2-4": {
             "grade": 2,
             "class": 4,
-            "imagePath": "../img/thumbnails/2_4_thumbnail.jpg",
+            "imagePath": "img/thumbnails/2_4_thumbnail.jpg",
             "title": "2-4"
         },
         "2-5": {
             "grade": 2,
             "class": 5,
-            "imagePath": "../img/thumbnails/2_5_thumbnail.jpg",
+            "imagePath": "img/thumbnails/2_5_thumbnail.jpg",
             "title": "2-5"
         },
         "2-6": {
             "grade": 2,
             "class": 6,
-            "imagePath": "../img/thumbnails/2_6_thumbnail.jpg",
+            "imagePath": "img/thumbnails/2_6_thumbnail.jpg",
             "title": "2-6"
         },
         "3-1": {
             "grade": 3,
             "class": 1,
-            "imagePath": "../img/thumbnails/3_1_thumbnail.jpg",
+            "imagePath": "img/thumbnails/3_1_thumbnail.jpg",
             "title": "3-1"
         },
         "3-2": {
             "grade": 3,
             "class": 2,
-            "imagePath": "../img/thumbnails/3_2_thumbnail.jpg",
+            "imagePath": "img/thumbnails/3_2_thumbnail.jpg",
             "title": "3-2"
         },
         "3-3": {
             "grade": 3,
             "class": 3,
-            "imagePath": "../img/thumbnails/3_3_thumbnail.jpg",
+            "imagePath": "img/thumbnails/3_3_thumbnail.jpg",
             "title": "3-3"
         },
         "3-4": {
             "grade": 3,
             "class": 4,
-            "imagePath": "../img/thumbnails/3_4_thumbnail.jpg",
+            "imagePath": "img/thumbnails/3_4_thumbnail.jpg",
             "title": "3-4"
         },
         "3-5": {
             "grade": 3,
             "class": 5,
-            "imagePath": "../img/thumbnails/3_5_thumbnail.jpg",
+            "imagePath": "img/thumbnails/3_5_thumbnail.jpg",
             "title": "3-5"
         },
         "3-6": {
             "grade": 3,
             "class": 6,
-            "imagePath": "../img/thumbnails/3_6_thumbnail.jpg",
+            "imagePath": "img/thumbnails/3_6_thumbnail.jpg",
             "title": "3-6"
         },
          "1-A": {
             "grade": 4,
             "class": 1,
-            "imagePath": "../img/thumbnails/1_A_thumbnail.jpg",
+            "imagePath": "img/thumbnails/1_A_thumbnail.jpg",
             "title": "1-A"
         },
         "1-B": {
             "grade": 4,
             "class": 2,
-            "imagePath": "../img/thumbnails/1_B_thumbnail.jpg",
+            "imagePath": "img/thumbnails/1_B_thumbnail.jpg",
             "title": "1-B"
         },
         "1-C": {
             "grade": 4,
             "class": 3,
-            "imagePath": "../img/thumbnails/1_C_thumbnail.jpg",
+            "imagePath": "img/thumbnails/1_C_thumbnail.jpg",
             "title": "1-C"
         },
         "1-D": {
             "grade": 4,
             "class": 4,
-            "imagePath": "../img/thumbnails/1_D_thumbnail.jpg",
+            "imagePath": "img/thumbnails/1_D_thumbnail.jpg",
             "title": "1-D"
         },
         "1-E": {
             "grade": 4,
             "class": 5,
-            "imagePath": "../img/thumbnails/1_E_thumbnail.jpg",
+            "imagePath": "img/thumbnails/1_E_thumbnail.jpg",
             "title": "1-E"
         },
         "2-A": {
             "grade": 5,
             "class": 1,
-            "imagePath": "../img/thumbnails/2_A_thumbnail.jpg",
+            "imagePath": "img/thumbnails/2_A_thumbnail.jpg",
             "title": "2-A"
         },
         "2-B": {
             "grade": 5,
             "class": 2,
-            "imagePath": "../img/thumbnails/2_B_thumbnail.jpg",
+            "imagePath": "img/thumbnails/2_B_thumbnail.jpg",
             "title": "2-B"
         },
         "2-C": {
             "grade": 5,
             "class": 3,
-            "imagePath": "../img/thumbnails/2_C_thumbnail.jpg",
+            "imagePath": "img/thumbnails/2_C_thumbnail.jpg",
             "title": "2-C"
         },
         "2-D": {
             "grade": 5,
             "class": 4,
-            "imagePath": "../img/thumbnails/2_D_thumbnail.jpg",
+            "imagePath": "img/thumbnails/2_D_thumbnail.jpg",
             "title": "2-D"
         },
         "2-E": {
             "grade": 5,
             "class": 5,
-            "imagePath": "../img/thumbnails/2_E_thumbnail.jpg",
+            "imagePath": "img/thumbnails/2_E_thumbnail.jpg",
             "title": "2-E"
         }
         //この後に追記する場合は、コンマを忘れるな！
