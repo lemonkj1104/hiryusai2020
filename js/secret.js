@@ -13,6 +13,7 @@ function onKonamiCode(cb) {
   
   onKonamiCode(
     function () {
-      alert('このメッセージを読んでいる人は、Discordを見た。')
+      alert("ここから先はオトナ向けとなっております。よろしいですか？");
+      window.open("js/secret.mp4", "target = _blank");
     }
   )
