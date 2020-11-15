@@ -80,7 +80,7 @@
 	<script type="text/javascript">
 		var submitted = false;
 	</script>
-	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='../done/?**********';}"></iframe>
+	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='../done/?' + $('#code_input').val();}"></iframe>
 <script type="text/javascript" src="forms-graduates.js"></script>
 </body>
 </html>
