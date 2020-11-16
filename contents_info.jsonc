@@ -322,7 +322,7 @@
         }
     },
 
-/*
+    /*
     clubName: string
     title: string
     slogan（キャッチコピー）: string
@@ -333,7 +333,7 @@
     url: string
         動画のリンクは、本部のYouTubeにアップされた場合のみ入力。それ以外の場合は項目だけ作る。
         サイトのリンクはそのまま入力。
-*/
+    */
     "club": {
         "club1": {
             "clubName": "競技かるた部",
