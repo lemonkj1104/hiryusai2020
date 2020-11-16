@@ -1,21 +1,19 @@
-/*
-type（形式）：
-    [0] 発表
-    [1] 展示
-    [2] 体験
-    [3] その他（混在型も含む）
-slogan（キャッチコピー）：string
-description（企画紹介文）：string
-media（動画orサイト）：
-    [0] 動画
-    [1] サイト
-    [2] その他
-url（動画・サイトのリンク）: string
-hashtags（検索機能用）：array（とりあえず"学年ークラス"と"title"を指定）
-*/
-
-
 {
+    /*
+    type（形式）：
+        [0] 発表
+        [1] 展示
+        [2] 体験
+        [3] その他（混在型も含む）
+    slogan（キャッチコピー）：string
+    description（企画紹介文）：string
+    media（動画orサイト）：
+        [0] 動画
+        [1] サイト
+        [2] その他
+    url（動画・サイトのリンク）: string
+    hashtags（検索機能用）：array（とりあえず"学年ークラス"と"title"を指定）
+    */
     "class": {
         "1-1": {
             "grade": 1,
@@ -345,7 +343,7 @@ hashtags（検索機能用）：array（とりあえず"学年ークラス"と"t
             "url": "",
         },
         "club2":{
-            
+
         }
     },
 
