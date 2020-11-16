@@ -11,7 +11,7 @@ media（動画orサイト）：
     [1] サイト
     [2] その他
 url（動画・サイトのリンク）: string
-hashtags：array
+hashtags（検索機能用）：array（とりあえず"学年ークラス"と"title"を指定）
 */
 
 
@@ -322,11 +322,28 @@ hashtags：array
                 "慎様のブランチ　映画コーナー　～ナイスグリーンを添えて～"
             ]
         }
-        //この後に追記する場合は、コンマを忘れるな！
     },
 
+/*
+    clubName: string
+    title: string
+    slogan（キャッチコピー）: string
+    type: int
+        [0] 動画
+        [1] サイト
+        [2] その他
+    url: string
+        動画のリンクは、本部のYouTubeにアップされた場合のみ入力。それ以外の場合は項目だけ作る。
+        サイトのリンクはそのまま入力。
+*/
     "club": {
-
+        "club1": {
+            "clubName": "競技かるた部",
+            "title": "",
+            "slogan": "",
+            "type": 0,
+            "url": "",
+        },
     },
 
     "independent": {
