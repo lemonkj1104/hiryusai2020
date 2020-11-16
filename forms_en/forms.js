@@ -3,7 +3,7 @@ function form_choices_click(num){
     $('.form_choices').removeClass('active_choice');
     $('#choice_' + num).addClass('active_choice');
     terget_category = num;
-    const category_name = ['保護者 | 追加用', '学校説明会参加者', '卒業生', '一般'];
+    const category_name = ['Parents and Guardians', 'School Information Session Participants', 'Graduates', 'Others'];
     for (let i = 0; i < category_name.length; i++) {
         $('#choice_' + i).html(category_name[i]);
     }
