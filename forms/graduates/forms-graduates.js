@@ -80,6 +80,11 @@ function check_arrow(){
     }
 }
 
+window.addEventListener("keydown", function(e) {
+    if([9, 13].indexOf(e.keyCode) > -1) { //Tab:9, Enter:13
+        e.preventDefault();
+    }
+}, false);
 
 
 //  *********************************************  \\

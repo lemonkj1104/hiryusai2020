@@ -81,9 +81,11 @@ function form_choices_click(num, parents_class){
 }
 
 
-
-
-
+window.addEventListener("keydown", function(e) {
+    if([9, 13].indexOf(e.keyCode) > -1) { //Tab:9, Enter:13
+        e.preventDefault();
+    }
+}, false);
 
 
 //  *********************************************  \\

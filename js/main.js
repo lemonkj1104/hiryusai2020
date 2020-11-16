@@ -4,6 +4,8 @@ $(window).on('load', function() {
     startAnime(0);
 });
 
+
+
 function startAnime(num){
     console.log(num);
     $("#main_title_1").html('<h1 class="main_title" id="main_title_1" data-text="' + mainTitle[num][0] + '">' +  mainTitle[num][0]+ '</h1>');
