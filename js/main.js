@@ -30,6 +30,7 @@ function auto_scroll(num) {
 
 const change_language = [
     [
+        ".registrationLink",
         ".footer",
         "#event_description_0", 
         "#event_description_1", 
@@ -43,6 +44,7 @@ const change_language = [
         ".contact_contents", 
     ],
     [
+        "<a href='forms/''> <div class='start_button'> <p class='start_button_text'><span style='font-size: .8em;vertical-align: middle;'><</span> <span style='vertical-align: middle;'>　REGISTRATION　</span> <span style='font-size: .8em;vertical-align: middle;'>/></span></p></div></a>",
         "<p>HIRYUSAI ONLINEはただいま準備中です。公開日まで少々お待ちください。</p>",
         /*日付のところ*/"プレリリースは18日｜一般・受験生はもう少しお待ちください",  
         '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">人数制限はありません。誰でも登録可能です。</span>', 
@@ -79,6 +81,7 @@ const change_language = [
         MAIL：<a href="mailto:hiryu25th.2020@gmail.com" target="_blank">hiryu25th.2020@gmail.com</a>`, 
     ],
     [
+        "<a href='forms_en/''> <div class='start_button'> <p class='start_button_text'><span style='font-size: .8em;vertical-align: middle;'><</span> <span style='vertical-align: middle;'>　REGISTRATION　</span> <span style='font-size: .8em;vertical-align: middle;'>/></span></p></div></a>",
         "<p>We appreciate your patience as we get things ready. Stay tuned for updates!</p>",
         /*日付のところ*/"Pre-relese on November 18th | Public release coming soon", 
         '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">Anyone can join the experience. Register today.</span>',
