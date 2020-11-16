@@ -112,7 +112,7 @@ input[type=text]:focus {
     font-size: 16px;
     font-weight: 300;
     color: #AFAFAF;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.15em;
     margin: 14px 0;
     cursor: pointer;
 }
