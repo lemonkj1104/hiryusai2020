@@ -33,13 +33,13 @@ function onload(){
 
     if (msie > 0) // If Internet Explorer, return version number
     {
-        alert(parseInt(ua.substring(msie + 5, ua.indexOf(".", msie))));
+        //alert(parseInt(ua.substring(msie + 5, ua.indexOf(".", msie))));
+        alert("Internet Explorerはサポートされていません。他のブラウザーを推奨します。")
     }
     else  // If another browser, return 0
     {
-        alert('otherbrowser');
+        //alert('otherbrowser');
     }
-
     return false;
 }
 
