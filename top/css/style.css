@@ -1,0 +1,102 @@
+/* font-size generator */
+/* https://websemantics.uk/tools/responsive-font-calculator/ */
+/* 560px - 1920px */
+
+/* fonts */
+@font-face {
+	font-family: 'postnobillscolomboExtrabold';
+	src: url('../fonts/postnobillscolombo-extrabold.ttf');
+}
+p,a,h1,h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+a {
+    color: white !important;
+    text-decoration:none;
+}
+
+h2 {
+    font-size: calc(1.25rem + ((1vw - 5.6px) * 0.7353)); /* 20px - 30px */
+    line-height: calc(1.5 * (1.25rem + ((1vw - 5.6px) * 0.7353)));
+    letter-spacing: 0.2em;
+    font-weight: 500;
+}
+p {
+    font-size: calc(0.9375rem + ((1vw - 5.6px) * 0.3676)); /* 15px - 20px */
+    line-height: calc(1.5 * (0.9375rem + ((1vw - 5.6px) * 0.3676)));
+    letter-spacing: 0.2em;
+}
+
+/* css */
+body {
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    width: 100vw;
+}
+
+
+/* header */
+header {
+    width: 100vw;
+    height: 85px;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    text-align: right;
+}
+header ul {
+    display: flex;
+    padding: 20px 50px 0;
+    justify-content: flex-end;  /* 右寄せ */
+}
+header li {
+    color: #ffffff;
+    list-style: none;
+    line-height: 24px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: normal;
+    margin: auto 20px;
+}
+header li p {
+    font-size: 80%;
+    margin-bottom: 0px;
+}
+/* アンダーラインの作成 */
+.underline {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.underline::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 0.05em;
+    background: #ffffff;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform .3s;
+}
+.underline:hover::after {
+    transform-origin: right top;
+    transform: scale(1, 1);
+}
+
+.change_language_div{
+    padding: 1px 7px;
+    margin: 0 5px;
+}
+#change_language_button_1{
+    border: 1px solid #ffffff;
+}
+.change_language_button{
+    font-size: 80%;
+    margin: 0px;
+}
