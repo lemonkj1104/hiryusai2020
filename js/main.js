@@ -42,7 +42,7 @@ const change_language = [
     ],
     [
         "<p>HIRYUSAI ONLINEはただいま準備中です。公開日まで少々お待ちください。</p>",
-        "11/18公開！", 
+        /*日付のところ*/"プレリリースは18日｜一般・受験生はもう少しお待ちください",  
         '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">人数制限はありません。誰でも登録可能です。</span>', 
         "委員長挨拶", 
         "委員長　中里星恋",
@@ -78,7 +78,7 @@ const change_language = [
     ],
     [
         "<p>We appreciate your patience as we get things ready. Stay tuned for updates!</p>",
-        "Coming November 18th", 
+        /*日付のところ*/"Pre-relese on November 18th | Public release coming soon", 
         '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">Anyone can join the experience. Register today.</span>',
         "Message From Chairman", 
         "Chairman of Hiryusai Festival: Seren Nakazato",
