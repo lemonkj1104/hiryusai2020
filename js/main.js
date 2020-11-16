@@ -28,6 +28,7 @@ function auto_scroll(num) {
 
 const change_language = [
     [
+        ".footer",
         "#event_description_0", 
         "#event_description_1", 
         ".leader_title", 
@@ -40,7 +41,8 @@ const change_language = [
         ".contact_contents", 
     ],
     [
-        "11月下旬に開催！", 
+        "<p>HIRYUSAI ONLINEはただいま準備中です。公開日まで少々お待ちください。</p>",
+        "11/18公開！", 
         '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">人数制限はありません。誰でも登録可能です。</span>', 
         "委員長挨拶", 
         "委員長　中里星恋",
@@ -75,7 +77,8 @@ const change_language = [
         MAIL：<a href="mailto:hiryu25th.2020@gmail.com" target="_blank">hiryu25th.2020@gmail.com</a>`, 
     ],
     [
-        "Coming late November", 
+        "<p>We appreciate your patience as we get things ready. Stay tuned for updates!</p>",
+        "Coming November 18th", 
         '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">Anyone can join the experience. Register today.</span>',
         "Message From Chairman", 
         "Chairman of Hiryusai Festival: Seren Nakazato",
