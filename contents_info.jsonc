@@ -343,7 +343,116 @@
             "url": "",
         },
         "club2":{
-
+            "clubName": "合唱部",
+            "title": "しぶしぶ合唱部2020",
+            "slogan": "あつまれ！しぶやの森",
+            "type": 1,
+            "url": "http://sub.shibuya-shibuya-jh.ed.jp/club/chorusclub/",
+        },
+        "club3": {
+            "clubName": "料理部",
+            "title": "おかしの家",
+            "slogan": "しぶしぶ　りょうりぶの森",
+            "type": 0,
+            "url": "",//リンク切れのため掲載してません
+        },
+        "club4": {
+            "clubName": "英語ディベート部",
+            "title": "ディベートの部屋",
+            "slogan": "ディベートします！見てね",
+            "type": 0,
+            "url": "https://youtu.be/udqY2ktU8Nc",
+        },
+        "club5": {
+            "clubName": "ダンス部",
+            "title": "DANCINEMA",
+            "slogan": "映画作品をダンスで表現しました！",
+            "type": 0,
+            "url": "",
+        },
+        "club6": {
+            "clubName": "軽音楽部",
+            "title": "軽音ライブ",
+            "slogan": "軽音しか勝たん",
+            "type": 1,
+            "url": "http://shibuyakeion.wordpress.com/",//WordPressだと！！！パスワードがないと見られないです Password:imagine
+        },//弦楽器講座どうしよう
+        "club7": {
+            "clubName": "弦楽器講座",
+            "title": "",
+            "slogan": "",
+            "type": 0,
+            "url": "",
+        },
+        "club8": {
+            "clubName": "写真同好会",
+            "title": "写同の写同による写同のためのフォトコンテスト2020",
+            "slogan": "写真同好会の今年度のNo.1ショットを決めます!",
+            "type": 1,
+            "url": "https://forms.gle/3iBZFbK9CniXZkks7",//ロードできない
+        },
+        "club9": {
+            "clubName": "㈲ドアノブ社／Doorknob  Inc.",
+            "title": "年刊少年ファラオⅡ",
+            "slogan": "「想像」の詰まった創作合同誌",
+            "type": 0,
+            "url": "",
+        },
+        "club10": {
+            "clubName": "文芸部",
+            "title": "篝火/お品書き",
+            "slogan": "部員の創作した小説、短歌、エッセイなどを集めた部誌になります。ごゆっくりどうぞ。",
+            "type": 0,
+            "url": "",
+        },
+        "club11": {
+            "clubName": "理科部",
+            "title": "理科部",
+            "slogan": "理科の世界に浸りましょう",
+            "type": 0,
+            "url": "",
+        },
+        "club12": {
+            "clubName": "美術部",
+            "title": "美術部影絵劇",
+            "slogan": "唯一無二！美術部が描く完全オリジナルストーリー！",
+            "type": 0,
+            "url": "https://youtu.be/mktLFVYz79s",
+        },
+        "club13": {
+            "clubName": "クイズ研究部",
+            "title": "SSQCからの挑戦！50問ペーパークイズ",
+            "slogan": "君のクイズの実力を発揮せよ",
+            "type": 1,
+            "url": "https://drive.google.com/drive/folders/1HVzmv9IAf5H3pXMHDCM5LW2gNZoYAirx?usp=sharing",//これはただのフォルダーです。多分サイトみたいなの作ってあげる必要がある
+        },
+        "club14": {
+            "clubName": "演劇部",
+            "title": "#リモゲキ",
+            "slogan": "～普通の公演は邪道～",
+            "type": 0,
+            "url": "https://www.youtube.com/playlist?list=PLUgvwgucliS3GkTOTRGHOC2gAI4Z2_f1B",//プレイリストです
+        },
+        "club16": {
+            "clubName": "吹奏楽部",
+            "title": "部活紹介",//部活企画の企画名は不明
+            "slogan": "アイデアを！！",
+            "type": 0,
+            "url": "https://photos.app.goo.gl/wfAL7M77ksdYXZEM9",//開くとGoogleフォトの共有アルバムになります
+        },
+        "club17": {
+            "clubName": "理科部",
+            "title": "理科部紹介",
+            "slogan": "理科の世界に浸りましょう",
+            "type": 1,
+            "url": "https://site-214026-4330-4648.mystrikingly.com/",
+        },
+        "club18": {
+            "clubName": "折り紙研究会",
+            "title": "折り紙研究会",
+            "slogan": "一枚の紙から",
+            "type": 0,
+            "url": "https://sites.google.com/view/shibushibu-origami/home",
         }
     },
 
