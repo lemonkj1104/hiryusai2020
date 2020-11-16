@@ -80,10 +80,11 @@ function form_choices_click(num, parents_class){
     $(parents_class + ' #choice_' + num).html('<span style="font-size: 20px;line-height: 80%;">< </span>' + category_name[num] + '<span style="font-size: 20px;line-height: 80%;"> /></span>');
 }
 
-
-
-
-
+window.addEventListener("keydown", function(e) {
+    if([9, 13].indexOf(e.keyCode) > -1) { //Tab:9, Enter:13
+        e.preventDefault();
+    }
+}, false);
 
 
 //  *********************************************  \\
