@@ -344,6 +344,9 @@ hashtags（検索機能用）：array（とりあえず"学年ークラス"と"t
             "type": 0,
             "url": "",
         },
+        "club2":{
+            
+        }
     },
 
     "independent": {
