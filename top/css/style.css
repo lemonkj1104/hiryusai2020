@@ -5,13 +5,13 @@
 /* fonts */
 @font-face {
 	font-family: 'postnobillscolomboExtrabold';
-	src: url('../fonts/postnobillscolombo-extrabold.ttf');
+	src: url('../../fonts/postnobillscolombo-extrabold.ttf');
 }
 p,a,h1,h2 {
     font-family: 'Noto Sans JP', sans-serif;
 }
 a {
-    color: white !important;
+    color: black !important;
     text-decoration:none;
 }
 
@@ -29,11 +29,14 @@ p {
 
 /* css */
 body {
-    background: #000000;
     margin: 0;
     padding: 0;
-    color: #ffffff;
+    color: #000000;
     width: 100vw;
+}
+::selection {
+    background: #000;
+    color: #fff;
 }
 
 
@@ -54,7 +57,7 @@ header ul {
     justify-content: flex-end;  /* 右寄せ */
 }
 header li {
-    color: #ffffff;
+    color: #000000;
     list-style: none;
     line-height: 24px;
     font-family: 'Noto Sans JP', sans-serif;
@@ -79,7 +82,7 @@ header li p {
     content: '';
     width: 100%;
     height: 0.05em;
-    background: #ffffff;
+    background: #000000;
     transform: scale(0, 1);
     transform-origin: left top;
     transition: transform .3s;
@@ -89,14 +92,164 @@ header li p {
     transform: scale(1, 1);
 }
 
-.change_language_div{
-    padding: 1px 7px;
-    margin: 0 5px;
+
+/* text_size */
+
+.text_22{
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: normal;
+    margin-bottom: 24px;
 }
-#change_language_button_1{
-    border: 1px solid #ffffff;
+.text_16{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    margin: 12px 0;
 }
-.change_language_button{
-    font-size: 80%;
-    margin: 0px;
+.hover_shadow{
+    cursor: pointer;
+    transition: .5s;
+}
+.hover_shadow:hover{
+    text-shadow: -.2em .2em 2px rgba(255, 0, 0, 0.4), .2em -.2em 2px rgba(0, 194, 255, 0.4);
+}
+
+/* logo icon */
+.logo_icon_image{
+    width: 70px;
+    height: 70px;
+    margin: 50px 90px 0;
+}
+
+/* select category section */
+.select_category_section{
+    margin: 80px 40px 50px;
+    width: calc(100vw - 80px);
+    text-align: center;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+.select_category_child{
+    text-align: left;
+    margin: 0 140px;
+    position: relative;
+} 
+.left_section:after, .middle_section:after{
+    content: '';
+    border-right: 1px solid #AFAFAF;
+    position: absolute;
+    top: 0;
+    right: -140px;
+    height: 100%;
+}
+
+/* search section */
+.search_section{
+    margin: 170px 100px 0;
+    width: calc(100vw - 200px);
+    text-align: right;
+}
+.search_works_input{
+    width: 20em;
+    max-width: 80vw;
+    padding: 5px 30px 5px 5px;
+    border: 0;
+    border-bottom: 1px solid #303030;
+    color: #303030;
+}
+.search_icon{
+    height: 20px;
+    margin: -5px -2em;
+}
+input[type=text]:focus {
+    outline: none;
+}
+
+/* imagine_text */
+.imagine_text{
+    font-family: 'postnobillscolomboExtrabold';
+    text-shadow: -5px 10px 4px rgba(255, 0, 0, 0.4), 5px -7px 4px rgba(0, 194, 255, 0.4);
+    font-size: 100px;
+    line-height: 150px;
+    text-align: center;
+    letter-spacing: 0.4em;
+    margin: 100px 40px 200px;
+}
+
+/* black_background */
+.black_background{
+    background: #000000;
+    color: #ffffff;
+}
+
+
+
+
+/* concept_section */
+
+.concept_section {
+    margin-top: 200px;
+    text-align: center;
+}
+.concept_main {
+    font-size: calc(1.875rem + ((1vw - 5.6px) * 2.2059));  /* 30px - 60px */
+    line-height: calc(1.5 * (1.875rem + ((1vw - 5.6px) * 2.2059)));
+    font-weight: bold;
+    margin-bottom: 110px;
+}
+
+.concept_image {
+    width: 30%;
+    min-width: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 50px 0;
+    font-weight: bold;
+}
+.concept_text_session{
+    width: 60%;
+    min-width: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    margin: 50px 0;
+}
+
+
+/* preview section */
+.preview_img{
+    margin: 150px auto;
+    width: 80vw;
+}
+
+/* contents select section */
+.contets_title{
+    font-size: 60px;
+    line-height: 82px;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+}
+
+/* contact_section */
+.contact_section {
+    margin-top: 0;
+    padding: 100px 10% 200px;
+    text-align: left;
+}
+.contact_title{
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.contact_border{
+    margin: 400px 0 0;
+    width: 100vw;
+}
+
+.contact_section img {
+    height: 35px;
+    margin-top: 55px;
+    margin-right: 30px;
 }
