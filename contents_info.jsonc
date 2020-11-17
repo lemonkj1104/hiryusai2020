@@ -34,20 +34,43 @@
             "grade": 1,
             "class": 2,
             "imagePath": "img/thumbnails/1_2_thumbnail.jpg",
-            "title": "1-2"
-            
+            "title": "1-2",
+            "type": 1,
+            "slogan": "",
+            "description": "",
+            "media": 0,
+            "url": "",
+            "hashtags": [
+                "1-2"
+            ]
         },
         "1-3": {
             "grade": 1,
             "class": 3,
             "imagePath": "img/thumbnails/1_3_thumbnail.jpg",
-            "title": "1-3"
+            "title": "1-3",
+            "type": 1,
+            "slogan": "",
+            "description": "",
+            "media": 0,
+            "url": "",
+            "hashtags": [
+                "1-3"
+            ]
         },
         "1-4": {
             "grade": 1,
             "class": 4,
             "imagePath": "img/thumbnails/1_4_thumbnail.jpg",
-            "title": "1-4"
+            "title": "1-4",
+            "type": 1,
+            "slogan": "",
+            "description": "",
+            "media": 0,
+            "url": "",
+            "hashtags": [
+                "1-4"
+            ]
         },        
         "1-5": {
             "grade": 1,
@@ -83,13 +106,29 @@
             "grade": 2,
             "class": 1,
             "imagePath": "img/thumbnails/2_1_thumbnail.jpg",
-            "title": "2-1"
+            "title": "2-1",
+            "type": 1,
+            "slogan": "",
+            "description": "",
+            "media": 0,
+            "url": "",
+            "hashtags": [
+                "2-1"
+            ]
         },
         "2-2": {
             "grade": 2,
             "class": 2,
             "imagePath": "img/thumbnails/2_2_thumbnail.jpg",
-            "title": "2-2"
+            "title": "2-2",
+            "type": 1,
+            "slogan": "",
+            "description": "",
+            "media": 0,
+            "url": "",
+            "hashtags": [
+                "2-2"
+            ]
         },
         "2-3": {
             "grade": 2,
@@ -111,7 +150,15 @@
             "grade": 2,
             "class": 4,
             "imagePath": "img/thumbnails/2_4_thumbnail.jpg",
-            "title": "2-4"
+            "title": "2-4",
+            "type": 1,
+            "slogan": "",
+            "description": "",
+            "media": 0,
+            "url": "",
+            "hashtags": [
+                "2-4"
+            ]
         },
         "2-5": {
             "grade": 2,
@@ -132,7 +179,15 @@
             "grade": 2,
             "class": 6,
             "imagePath": "img/thumbnails/2_6_thumbnail.jpg",
-            "title": "2-6"
+            "title": "2-6",
+            "type": 1,
+            "slogan": "",
+            "description": "",
+            "media": 0,
+            "url": "",
+            "hashtags": [
+                "2-6"
+            ]
         },
         "3-1": {
             "grade": 3,
@@ -153,7 +208,15 @@
             "grade": 3,
             "class": 2,
             "imagePath": "img/thumbnails/3_2_thumbnail.jpg",
-            "title": "3-2"
+            "title": "3-2",
+            "type": 1,
+            "slogan": "",
+            "description": "",
+            "media": 0,
+            "url": "",
+            "hashtags": [
+                "3-2"
+            ]
         },
         "3-3": {
             "grade": 3,
@@ -204,7 +267,15 @@
             "grade": 3,
             "class": 6,
             "imagePath": "img/thumbnails/3_6_thumbnail.jpg",
-            "title": "3-6"
+            "title": "3-6",
+            "type": 1,
+            "slogan": "",
+            "description": "",
+            "media": 0,
+            "url": "",
+            "hashtags": [
+                "3-6"
+            ]
         },
          "1-A": {
             "grade": 4,
@@ -240,7 +311,15 @@
             "grade": 4,
             "class": 3,
             "imagePath": "img/thumbnails/1_C_thumbnail.jpg",
-            "title": "1-C"
+            "title": "1-C",
+            "type": 1,
+            "slogan": "",
+            "description": "",
+            "media": 0,
+            "url": "",
+            "hashtags": [
+                "1-C"
+            ]
         },
         "1-D": {
             "grade": 4,
@@ -276,19 +355,43 @@
             "grade": 5,
             "class": 1,
             "imagePath": "img/thumbnails/2_A_thumbnail.jpg",
-            "title": "2-A"
+            "title": "2-A",
+            "type": 1,
+            "slogan": "",
+            "description": "",
+            "media": 0,
+            "url": "",
+            "hashtags": [
+                "2-A"
+            ]
         },
         "2-B": {
             "grade": 5,
             "class": 2,
             "imagePath": "img/thumbnails/2_B_thumbnail.jpg",
-            "title": "2-B"
+            "title": "2-B",
+            "type": 1,
+            "slogan": "",
+            "description": "",
+            "media": 0,
+            "url": "",
+            "hashtags": [
+                "2-B"
+            ]
         },
         "2-C": {
             "grade": 5,
             "class": 3,
             "imagePath": "img/thumbnails/2_C_thumbnail.jpg",
-            "title": "2-C"
+            "title": "2-C",
+            "type": 1,
+            "slogan": "",
+            "description": "",
+            "media": 0,
+            "url": "",
+            "hashtags": [
+                "2-C"
+            ]
         },
         "2-D": {
             "grade": 5,
