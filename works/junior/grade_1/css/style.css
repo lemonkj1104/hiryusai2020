@@ -181,30 +181,42 @@ input[type=text]:focus {
 }
 
 .videocards_outer{
-    margin: 40px 40px 50px;
-    width: calc(100vw - 80px);
+    margin: 20px 0px;
     display: flex;
     align-items: top;
     justify-content: center;
 }
 
 .videocard{
+    width: 400px;
     text-align: left;
-    margin: 0 140px;
+    margin: 0 20px;
     position: relative;
 } 
 
 .class_text{
-    font-size: 16px;
-    line-height: 30px;
+    color: #afafaf;
+    margin: 40px 0 0;
     font-weight: normal;
-    margin-bottom: 24px;
 }
 
 .title_text{
-    font-size: 22px;
-    line-height: 20px;
-    font-weight: 300;
-    margin: 12px 0;
-    color:gray;
+    margin: 5px 0 0;
+}
+
+main{
+    padding: 100px 100px 100px;
+}
+
+.arrow_icon{
+    margin-top: 10px;
+    float: right;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.thumbnails_div{
+    width: 500px;
+    height: 250px;
+    margin: 1px;
 }
