@@ -177,10 +177,14 @@ input[type=text]:focus {
 }
 
 .thumbnails_div{
-    background: red;
+    background: #AFAFAF;
     width: 500px;
     height: 300px;
     margin: 1px;
+}
+.thumbnails_div img{
+    object-fit: contain;
+    object-position: center;
 }
 
 main{
