@@ -97,7 +97,7 @@ const change_language = [
         MAIL：<a href="mailto:hiryu25th.2020@gmail.com" target="_blank">hiryu25th.2020@gmail.com</a>`, 
     ],
     [
-        "<a href='auth/''> <div class='start_button'> <p class='start_button_text'><span style='font-size: .8em;vertical-align: middle;'><</span> <span style='vertical-align: middle;'>  START </span> <span style='font-size: .8em;vertical-align: middle;'>/></span></p></div></a>",
+        "<a href='auth_en/''> <div class='start_button'> <p class='start_button_text'><span style='font-size: .8em;vertical-align: middle;'><</span> <span style='vertical-align: middle;'>  START </span> <span style='font-size: .8em;vertical-align: middle;'>/></span></p></div></a>",
         "<p>We appreciate your patience as we get things ready. Stay tuned for updates!</p>",
         /*日付のところ*/"Pre-relese on November 18th | Public release coming soon", 
         '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">Anyone can join the experience. Register today.</span>',
