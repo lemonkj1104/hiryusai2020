@@ -14,6 +14,6 @@ function onKonamiCode(cb) {
   onKonamiCode(
     function () {
       alert("ここから先のコンテンツには成人向けの表現が含まれています。よろしいですか？");
-      window.open("js/secret.mp4", "target = _blank");
+      window.open("img/secret.mp4", "target = _blank");
     }
   )
