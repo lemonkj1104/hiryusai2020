@@ -33,6 +33,7 @@ body {
     padding: 0;
     color: #000000;
     width: 100vw;
+    cursor: url(../../img/play_cursor.cur), auto;
 }
 ::selection {
     background: #000;
@@ -198,6 +199,7 @@ main{
 p.more{
     font-size: 15px;
     margin: 15px 0;
+    cursor: pointer;
 }
 .grade_text {
     margin: 50px 0 12px;
