@@ -1,6 +1,9 @@
-// $(function() {
-//     //マウスを乗せたら発動
-//     $('.thumbnails_div').hover(function() {
-        
-//     });
-// });
+
+
+
+function scrollTop(num) {
+    console.log($(num).offset().top);
+    $("html,body").animate({
+        scrollTop:$(num).offset().top
+    });
+}
