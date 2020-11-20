@@ -11,9 +11,11 @@ function go(num){
     if(right_8_number % 7 === parseInt(code_array[8]) && right_8_number % 9 === parseInt(code_array[9])){
         console.log(code_array);
         if((parseInt(code_array[0] + code_array[1]) % 5) === 1 || (parseInt(code_array[0] + code_array[1]) % 5) === 0){
+            localStorage.setItem('token', code_array);
             location.href = '../top/';
         }else if((parseInt(code_array[0] + code_array[1]) % 5) === 4){
             if(code_array[2] === '0'){
+                localStorage.setItem('token', code_array);
                 location.href = '../top/'
             }else{
                 $('.error_text').text('HIRYUSAI ONLINE is currently in the pre-release stage; viewers are limited to parents/guardians for the time being. Please try again later.');
