@@ -61,7 +61,7 @@ const change_language = [
     ],
     [
         "<a href='auth/''> <div class='start_button'> <p class='start_button_text'><span style='font-size: .8em;vertical-align: middle;'><</span> <span style='vertical-align: middle;'>　START </span> <span style='font-size: .8em;vertical-align: middle;'>/></span></p></div></a>",
-        "<p style = 'letter-spacing: 0.1em;'>ただいまプリリース期間です。コンテンツは順次更新される予定です。</p>",
+        "<p style = 'letter-spacing: 0.1em;'>ただいまプレリース期間です。コンテンツは順次更新される予定です。</p>",
         /*日付のところ*/"プレリリースは18日｜一般・受験生はもう少しお待ちください",  
         '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">人数制限はありません。誰でも登録可能です。</span>', 
         "委員長挨拶", 
