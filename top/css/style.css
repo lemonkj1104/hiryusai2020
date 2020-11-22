@@ -231,8 +231,12 @@ input[type=text]:focus {
     line-height: 82px;
     letter-spacing: 0.2em;
     font-weight: bold;
+    color: white;
 }
-
+#contents_title_1, #contents_title_2{
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ffffff;
+}
 /* contact_section */
 .contact_section {
     margin-top: 0;
