@@ -20,10 +20,11 @@ function startAnime(num){
 }
 
 // auto_scroll ボタンを押して、画面を引数の位置までアニメーションスクロール
-function auto_scroll(num) {
+function auto_scroll(num, num2) {
+    var num2 = num2 || 500; 
     $('html,body').animate({
         scrollTop:$(num).offset().top - 100
-    }, 1000, function() {
+    }, num2, function() {
     });
 }
 
