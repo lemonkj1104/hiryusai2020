@@ -43,7 +43,7 @@ body {
     color: #fff;
 }
 main{
-    margin: 0 50px 200px;
+    margin: 200px 50px 00px;
 }
 
 
@@ -175,4 +175,21 @@ input[type=text]:focus {
     outline: none;
 }
 
-
+.video_section{
+    width: 60vw;
+    height: 42.67vw;
+    position: relative;
+}
+.video_section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.video_iframe{
+    width: 60vw;
+    height: 42.67vw;
+    object-fit: contain;
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+}
