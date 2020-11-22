@@ -2,6 +2,7 @@ const change_number = ['8','6','9','1','7','3','2','0','5','4'];
 function go(num){
     //コード変換
     var code_array = $('#code_textbox').val().split('');
+    console.log(code_array);
     for(var i = 0; i < 10; i++){
         // console.log(change_number[parseInt(code_array[i])]);
         code_array[i] = change_number[parseInt(code_array[i])];
@@ -27,4 +28,5 @@ function go(num){
         $('.error_text').text('認証コードが間違っています。');
         $('#code_textbox').val('');
     }
+    
 }
