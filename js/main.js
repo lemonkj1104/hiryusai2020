@@ -59,16 +59,21 @@ const change_language = [
         '<span style="border-bottom: 1px solid #AFAFAF;padding-bottom: 2px;">人数制限はありません。誰でも登録可能です。</span>', 
         "委員長挨拶", 
         "委員長　中里星恋",
-        `こんにちは！	<br>
-        この度は、HIRYUSAI ONLINEを見に来ていただき誠にありがとうございます！<br>	
-        実行委員長の中里星恋です。<br>
+        `こんにちは！<br>
+        この度は、HIRYUSAI ONLINEにご来場いただき誠にありがとうございます！<br>
+        HIRYUSAI ONLINE実行委員長の中里星恋です。<br>
         <br>
-        HIRYUSAI ONLINEのテーマは <b>｢IMAGINE｣</b>。<br>
-        今の世界は、個人だけでなく地球全体が大きく変わることが求められています。そのために必要なものこそが、｢Imagine｣です。一人ひとりが自分たちに何ができるかを想像し、新しいものを創造していく。今の世界ではそんな力が求められているのではないでしょうか。<br>
-        渋渋生は現在、各クラス・部活・委員会等で想像力を結集させ、今までとは違う企画の実現に向けて全力を注いでいます。<br>
-        当日にはきっと、未来を担う若者たちの努力の結晶が見られるはずです。<br>
+        皆さんもご存知の通り、今世界は新型コロナウイルスの影響を大きく受けています。渋渋でも、学校行事がなくなったり、授業形態が変化したりと、先生方も生徒たちもその影響を肌で感じています。飛龍祭も、その中の一つです。<br>
+        ですが、だからといって飛龍祭の歴史を私たちの手で止めてしまうわけにはいきません。<br>
+        そこで私たち実行委員は、オンライン上での開催を決定しました。こんな状況だからこそ創り出せる何かがあるのではないかと模索し、ここにたどり着きました。<br>
+        正直、この選択が正解だったかどうかは私たちにもまだわかりません。ただ、この飛龍祭が終わったときに、生徒や先生方の心に残り続け、また来場して下さった方々一人ひとりの心に少しでも響くものになってほしいという一心でここまでやってきました。<br>
         <br>
-        それまでご期待の上、もうしばらくお待ちください！`, 
+        さて、今年度のテーマは｢imagine｣です。<br>
+        例年とは違う形での企画実現にあたり、各クラス・部活・委員会では全員の想像力を結集してきました。ぜひこのHIRYUSAI ONLINEを通して渋渋生の力を感じていってください。<br>
+        <br>
+        最後に、運営に携わってくれた本部委員、ここまで力を貸してくださった先生方、そして初めての試みとなるオンラインでの成功に向けて一生懸命に取り組んだ生徒、第25回飛龍祭に関わってくださったすべての方々にこの場を借りて感謝申し上げます。<br>
+        <br>
+        それでは、楽しんでください！<br>`, 
         "～家から学校体験を～",
         "イメージ", 
         "文化祭、新時代へ",
@@ -99,17 +104,19 @@ const change_language = [
         `
         Hello!<br>
         Thank you for visiting HIRYUSAI ONLINE!<br>
-        I'm Seren Nakazato, the chairman of the Hiryu Festival executive committee.<br>
+        I'm Seren Nakazato, the chairman of the HIRYUSAI ONLINE executive committee.<br>
         <br>
-        The theme of HIRYUSAI ONLINE is <b>"IMAGINE"</b>.<br>
-        In today's world, not only individuals but the entire world is required to change significantly.<br>
-        "Imagine" is what is needed in order for the whole world to change.<br>
-        We must imagine what each of us can do, and create a brighter future.<br>
-        I believe that this kind of power is required in today's world.<br>
-        Shibu Shibu students are currently focusing on this imagination in every class, club activity, committee, etc., and are making every effort to make many events successful.<br>
-        On the day of HIRYUAI ONLINE, you will surely see the result of the efforts of the young people who will lead the future.<br>
+        As you all know, the world is now heavily affected by the new coronavirus.  Even in Shibuya Junior and Senior High school, teachers and students are affected by the coronavirus through the changes in the lesson styles and some school events disappearing. Hiryusai (our school festival) is one of them.<br>
+        However, that does not mean that we can stop the history of the Hiryusai.<br>
+        Therefore, we, the executive committee, decided to hold it online.  We sought to find something that could be created even in these kinds of situation, and we finally arrived here.<br>
         <br>
-        Please look forward to it and wait for a while!<br>
+        To be honest, we still don't know if this choice was correct.  However, we have come to this point with the hope that what we have created will remain in the hearts of the students and teachers, and that it will resonate with the hearts of each and every one of the visitors.<br>
+        <br>
+        By the way, the theme of this year’s Hiryusai is "imagine". In order to realize the projects in a different way from the usual year, each class, club activity, and committee has brought together everyone’s ‘Imagination’. Please feel the power of our school’s students through this HIRYUSAI ONLINE.<br>
+        <br>
+        Lastly, I would like to take this opportunity to thank the members of the headquarters who were involved in this operation, the teachers who helped us so far, the students who worked hard for this first attempt to succeed Hiryusai online and all those who have contributed for HIRYUSAI ONLINE.<br>
+        <br>
+        Have fun!<br>
         `, 
         "Experiencing school from home",
         "Image", 
