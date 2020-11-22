@@ -36,7 +36,7 @@ body {
     padding: 0;
     color: #000000;
     width: 100vw;
-    cursor: url(../../img/play_cursor.cur), auto;
+    
 }
 ::selection {
     background: #000;
