@@ -1,8 +1,15 @@
+/* font-size generator */
+/* https://websemantics.uk/tools/responsive-font-calculator/ */
+/* 560px - 1920px */
+
 /* fonts */
 @font-face {
 	font-family: 'postnobillscolomboExtrabold';
 	src: url('../../fonts/postnobillscolombo-extrabold.ttf');
 }
+
+html { scroll-behavior: smooth; }
+
 p,a,h1,h2 {
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -29,16 +36,21 @@ body {
     padding: 0;
     color: #000000;
     width: 100vw;
+    cursor: url(../../img/play_cursor.cur), auto;
 }
 ::selection {
     background: #000;
     color: #fff;
+}
+main{
+    margin: 0 50px 200px;
 }
 
 
 /* header */
 header {
     width: 100vw;
+    padding: 10px 40px;
     height: 50px;
     background: transparent;
     position: fixed;
@@ -98,20 +110,12 @@ header li p {
     font-weight: normal;
     margin-bottom: 24px;
 }
-.text_16{
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 300;
-    margin: 12px 0;
-}
-
-.text_50{
-    font-size: 50px;
+.text_32{
+    font-size: 32px;
     line-height: 40px;
     font-weight: normal;
     margin: 12px 0;
 }
-
 .hover_shadow{
     cursor: pointer;
     transition: .5s;
@@ -127,12 +131,6 @@ header li p {
     margin: 50px 90px 0;
 }
 
-.form_category{
-    font-size: 24px;
-    letter-spacing: 0.1em;
-    margin-bottom: 120px;
-}
-
 /* select category section */
 .select_category_section{
     margin: 40px 40px 50px;
@@ -142,7 +140,6 @@ header li p {
     align-items: top;
     justify-content: center;
 }
-
 .select_category_child{
     text-align: left;
     margin: 0 140px;
@@ -175,48 +172,71 @@ header li p {
     height: 20px;
     margin: -5px -2em;
 }
-
 input[type=text]:focus {
     outline: none;
 }
 
+
+
+/* videocard */
 .videocards_outer{
-    margin: 20px 0px;
-    display: flex;
-    align-items: top;
-    justify-content: center;
+    width: 100%;
 }
-
-.videocard{
+.videocard {
     width: 400px;
-    text-align: left;
-    margin: 0 20px;
-    position: relative;
-} 
-
+    display: inline-block;
+    padding: 40px;
+}
+.thumbnails_image{
+    width: 100%;
+    transition: .5s;
+}
+.videocard:hover .thumbnails_image{
+    box-shadow: 10px 6px 0px rgba(176, 233, 175, 0.5);
+}
 .class_text{
-    color: #afafaf;
-    margin: 40px 0 0;
+    color: #474747;
     font-weight: normal;
+    margin: 40px 0 5px;
 }
 
-.title_text{
-    margin: 5px 0 0;
+.grade_text{
+    font-size: 30px;
+    font-weight: normal;
+    margin: 20px 40px 8px;
 }
 
-main{
-    padding: 100px 100px 100px;
+.list_title{
+    font-size: 26px;
+    font-weight: 300;
+    margin: 20px 40px 40px;
 }
 
-.arrow_icon{
-    margin-top: 10px;
-    float: right;
+.go_back_button{
+    margin: 60px 0 100px;
+    font-weight: 300;
+    color: #474747;
+}
+.tag_outer {
+    margin: 20px 0;
+}
+.tags{
+    background: #CCCCCC;
+    color: #ffffff;
+    padding: 2px 10px;
+    width: 7em;
+    font-size: 14px;
+    transition: .5s;
+    display: inline-block;
+    margin-right: 10px;
+    box-shadow: 5px 4px 0px rgba(175, 226, 233, 0.5);
     cursor: pointer;
-    pointer-events: none;
 }
-
-.thumbnails_div{
-    width: 500px;
-    height: 250px;
-    margin: 1px;
+.tags:hover{
+    box-shadow: none;
+}
+.tags p{
+    font-size: 15px;
+    font-weight: normal;
+    cursor: pointer;
 }
