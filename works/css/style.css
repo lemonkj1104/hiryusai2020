@@ -194,8 +194,8 @@ input[type=text]:focus {
 
 .thumbnails_div{
     background: #ffffff;
-    width: 450px;
-    height: 251.72px;
+    width: 300px;
+    height: 168.75px;
     margin: 7px;
     transition: .5s;
     display: inline-block;
